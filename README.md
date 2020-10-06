@@ -1,5 +1,8 @@
 # fastify-server-timeout [![Build Status](https://travis-ci.org/fastify/fastify-server-timeout.svg?branch=master)](https://travis-ci.org/fastify/fastify-server-timeout)
 
+__This module is deprecated as the functionality is embedded in Fastify now__.
+See https://www.fastify.io/docs/latest/Server/#keepalivetimeout for more details.
+
 Set timeout for incoming messages.
 
 nodejs by default keep the request lived [for 2 minutes](https://nodejs.org/docs/latest/api/http.html#http_server_settimeout_msecs_callback).
